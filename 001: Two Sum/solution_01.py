@@ -1,5 +1,6 @@
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+    def twoSum(self, nums: list, target: int) -> list:
         length = len(nums)
 
         enumerate_nums = enumerate(nums)
